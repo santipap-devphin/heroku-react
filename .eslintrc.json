@@ -1,0 +1,87 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "airbnb",
+        "plugin:prettier/recommended",
+        "prettier/react"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "consistent-return" : "off",
+        "react/jsx-curly-newline" : "off",
+        "react/no-access-state-in-setstate" : "off",
+        "no-unneeded-ternary" : "off",
+        "no-nested-ternary" : "off",
+        "import/no-cycle": "off",
+        "react/require-default-props" : "off",
+        "import/named" : "off",
+        "react/prop-types" : "off",
+        "react/destructuring-assignment" : "off",
+        "react/forbid-prop-types": "off",
+        "react/no-danger" : "off",
+        "no-console": "off",
+        "no-use-before-define": ["error", { "functions": false, "classes": false }],
+        "no-param-reassign": 0,
+        "import/prefer-default-export": "off",
+        "react/jsx-filename-extension": [
+            1,
+            {
+                "extensions": [
+                    ".js",
+                    ".jsx"
+                ]
+            }
+        ],
+        "import/order": "off",
+        "jsx-a11y/label-has-for": "off",
+        "react/jsx-wrap-multilines": ["error", {
+            "declaration": false,
+            "assignment": false,
+            "arrow": true,
+            "return": true
+        }],
+        "react/jsx-curly-brace-presence": ["error", { "props": "never", "children": "never" }],
+        "jsx-a11y/label-has-associated-control": [ 2, {
+            "labelComponents": ["label"],
+            "labelAttributes": ["htmlFor"],
+            "controlComponents": ["input"]
+        }],
+        "no-shadow": "off",
+        "no-unused-expressions": "off",
+        "react/no-unescaped-entities": "off",
+        "import/no-named-as-default": 0,
+        "import/no-extraneous-dependencies": ["error",  {"devDependencies": true}],
+        "react/jsx-props-no-spreading": "off",
+        "import/newline-after-import": "off",
+        "import/no-anonymous-default-export": ["off", {
+            "allowArray": false,
+            "allowArrowFunction": false,
+            "allowAnonymousClass": false,
+            "allowAnonymousFunction": false,
+            "allowLiteral": false,
+            "allowObject": false
+        }],
+        "prettier/prettier": [
+            "error",
+            {
+                "endOfLine":"auto"
+            },
+            {
+                "semi": true,
+                "singleQuote": true
+            }
+        ]
+    }
+}

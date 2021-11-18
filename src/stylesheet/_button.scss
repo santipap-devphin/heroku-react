@@ -1,0 +1,72 @@
+.ant-btn {
+    &-primary {
+        color: #fff;
+        background-color: #696ffb;
+        border-color: #696ffb;
+        &:hover {
+            color: #fff;
+            background-color: #444bfa;
+            border-color: #373ffa;
+        }
+    }
+    &-info {
+        color: #fff;
+        background-color: #857bff;
+        border-color: #857bff;
+        &:hover {
+            color: #fff;
+            background-color: #6255ff;
+            border-color: #5648ff;
+        }
+    }
+    &-danger {
+        color: #fff;
+        background-color: #db504a;
+        border-color: #db504a;
+        &:hover {
+            color: #fff;
+            background-color: #d4312a;
+            border-color: #ca2f28;
+        }
+    }
+    &-warning {
+        color: #212529;
+        background-color: #ff6f59;
+        border-color: #ff6f59;
+        &:hover {
+            color: #fff;
+            background-color: #ff4e33;
+            border-color: #ff4326;
+        }
+    }
+    &-secondary {
+        color: #212529;
+        background-color: #dfe8fb;
+        border-color: #dfe8fb;
+        &:hover {
+            color: #212529;
+            background-color: #bdd0f7;
+            border-color: #b2c7f5;
+        }
+    }
+    &-dark {
+        color: #fff;
+        background-color: #223c61;
+        border-color: #223c61;
+        &:hover {
+            color: #fff;
+            background-color: #182a45;
+            border-color: #15253b;
+        }
+    }
+    &link {
+        font-weight: 400;
+        color: #696ffb;
+        text-decoration: none;
+        background-color: transparent;
+        &:hover {
+            color: #1e27f9;
+            text-decoration: underline;
+        }
+    }
+}
