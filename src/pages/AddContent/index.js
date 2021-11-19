@@ -520,7 +520,7 @@ const AddContent = () => {
   const dummyRequest = ({ file, onSuccess }) => {
     setTimeout(() => {
       //console.log(file);
-      onSuccess('ok');
+      onSuccess('okasdasdasd');
     }, 0);
   };
 
