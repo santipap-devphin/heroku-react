@@ -536,7 +536,7 @@ const AddContent = () => {
         
           setTimeout(function(){
                         
-            //console.log(editor)
+            console.log(editor)
             imageInfo.src = imgc;
             targetImgElement.src = imgc;
            
